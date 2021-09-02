@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Intento de una pagina web decente</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="estilos1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/163b2e7bf3.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top barradenav">
+  <a class="navbar-brand ml-1 text-danger" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item mx-3">
+        <a class="nav-link text-danger" href="#"><span class="font-weight-bolder">Portfolio</span></a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-danger" href="#"><span class="font-weight-bolder">Contacto</span></a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-danger" href="#"><span class="font-weight-bolder">Acceso Clientes</span></a>
+      </li> 
+      <li class="nav-item mx-3">
+        <ul class="list-group list-group-horizontal" style="list-style: none;">
+          <li class="mr-1"><a class="nav-link text-danger" href="#"><span class="fab fa-facebook"></span></a></li>
+          <li class="mx-1"><a class="nav-link text-danger" href="#"><span class="fab fa-tiktok"></span></a></li>
+          <li class="ml-1"><a class="nav-link text-danger" href="#"><span class="fab fa-instagram"></span></a></li>
+        </ul>
+      </li> 
+    </ul>
+  </div>  
+</nav>
+<!-- -----------------------------------CARRUSEL------------------------------------ -->
+<div class="mt-5">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://p4.wallpaperbetter.com/wallpaper/630/454/478/guitar-macro-hd-wallpaper-preview.jpg" alt="guitarra 1" class="guitarra" object-fit="cover">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.teahub.io/photos/full/280-2808959_guitarra-fondo-de-pantalla.jpg" alt="Guitarra 2" class="guitarra">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.wallpapertip.com/wmimgs/43-432769_ibanez-electric-guitar-s-series.jpg" alt="Guitarra 3" class="guitarra">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</div>
+<!-- -----------------------------------CONTACTO------------------------------------ -->
+<div id="contacto">
+  CONTACTO
+</div>
+<!-- -----------------------------------ACCESO CLIENTES------------------------------------ -->
+<div id="acceso-clientes">
+  <h3>Acceso Clientes</h3>
+  <input type="text" class="form-control-plaintext">
+</div>
+<!-- -----------------------------------FOOTER------------------------------------ -->
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-5" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+    
+  <div class="container justify-content-center">
+      <p class="text-xs-center">(c) 2017 Esteban Juarez Fotografía.</p>
+  </div>
+</footer>
+</body>
+</html>
